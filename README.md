@@ -13,6 +13,10 @@ Light weight stock and work manager
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
 ---
+## Version
+![App Version](https://img.shields.io/badge/version-0.1.0--beta-orange)
+
+---
 
 ## Demo
 ![Demo]
