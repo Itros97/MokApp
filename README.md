@@ -13,5 +13,5 @@ Light weight stock and work manager
 
 ## Instalación
 ```bash
-git clone https://github.com/usuario/proyecto.git
-cd proyecto
+git clone https://github.com/Itros97/MokApp.git
+cd MokApp
