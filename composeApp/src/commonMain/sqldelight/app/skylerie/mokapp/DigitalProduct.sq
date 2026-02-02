@@ -2,7 +2,7 @@ CREATE TABLE digital_product (
   id INTEGER NOT NULL PRIMARY KEY,
   name TEXT NOT NULL,
   categoryId INTEGER NOT NULL,
-  price DOUBLE NOT NULL
+  price REAL NOT NULL
 );
 
 selectDigitalProductById:

@@ -5,8 +5,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-
-  //  alias(libs.plugins.sqldelight)
+    alias(libs.plugins.sqldelight)
 }
 
 kotlin {
@@ -84,10 +83,10 @@ android {
     }
 }
 
-//sqldelight {
-//    databases {
-//        create("MokAppDatabase") {
-//            packageName.set("app.skylerie.mokapp.data.database")
-//        }
-//    }
-//}
+sqldelight {
+    databases {
+        create("MokAppDatabase") {
+            packageName.set("app.skylerie.mokapp")
+        }
+    }
+}
