@@ -1,0 +1,36 @@
+CREATE TABLE digital_product (
+  id INTEGER NOT NULL PRIMARY KEY,
+  name TEXT NOT NULL,
+  categoryId INTEGER NOT NULL,
+  price REAL NOT NULL
+);
+
+selectDigitalProductById:
+SELECT * FROM digital_product
+WHERE id = id;
+
+selectDigitalProductsByCategoryId:
+SELECT * FROM digital_product
+WHERE categoryId = categoryId;
+
+selectAllDigitalProducts:
+SELECT * FROM digital_product;
+
+insertDigitalProduct:
+INSERT INTO digital_product(
+  id, categoryId, name, price
+) VALUES (
+    id, categoryId, name, price
+);
+
+updateDigitalProduct:
+UPDATE digital_product SET
+  categoryId = categoryId,
+  name = name,
+  price = price
+WHERE id = id;
+
+deleteDigitalProductById:
+DELETE FROM digital_product
+WHERE id = id;
+
